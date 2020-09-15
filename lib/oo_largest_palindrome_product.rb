@@ -4,7 +4,7 @@ class LargestPalindromeProduct
   attr_accessor :answer
   
   def initialize 
-    @answer = nil
+    @answer = 0
   end
   
   def palindrome?
