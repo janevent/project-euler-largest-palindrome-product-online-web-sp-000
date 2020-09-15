@@ -4,7 +4,7 @@ class LargestPalindromeProduct
   attr_accessor :answer
   
   def initialize 
-    
+    @answer = self.largest_palindrome_product
   end
   
   def palindrome?(number)
@@ -22,8 +22,8 @@ class LargestPalindromeProduct
     while num1 > 900 
       product = num1 * num2 
       if self.palindrome?(product)
-        @answer = product 
-        break
+        return product 
+        
       end 
       if num2 > 900 
         num2-=1 
