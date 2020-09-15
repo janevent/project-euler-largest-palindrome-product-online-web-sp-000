@@ -12,6 +12,7 @@ class LargestPalindromeProduct
       return true 
     else 
       false
+    end
   end 
   
   def largest_palindrome_product 
