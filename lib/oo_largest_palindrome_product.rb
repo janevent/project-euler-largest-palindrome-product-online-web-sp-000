@@ -26,7 +26,7 @@ class LargestPalindromeProduct
       if num2 > 900 
         num2-=1 
       else 
-        num1-1 
+        num1-=1 
         num2 = num1 
       end
     end
