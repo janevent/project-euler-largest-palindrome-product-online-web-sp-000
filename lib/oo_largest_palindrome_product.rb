@@ -23,6 +23,7 @@ class LargestPalindromeProduct
       product = num1 * num2 
       if self.palindrome?(product)
         self.answer = product 
+        break
       end 
       if num2 > 900 
         num2-=1 
