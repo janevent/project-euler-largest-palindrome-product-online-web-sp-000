@@ -25,13 +25,13 @@ end
 #   end
 #   success
 # end
-
+#check each product for being prime starting at the highest 3 digit
 def largest_palindrome_product 
   number1 = 999
   number2 = 999 
   product = 0 
   while number1 > 900 
-    product = number1 + number2 
+    product = number1 * number2 
     return product if palindrome?(product)
     if number2 > 900 
       number2-=1 
