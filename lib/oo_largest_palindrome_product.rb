@@ -2,6 +2,7 @@
 class LargestPalindromeProduct 
   
   attr_accessor :answer
+  
   def initialize 
     @answer = nil
   end
